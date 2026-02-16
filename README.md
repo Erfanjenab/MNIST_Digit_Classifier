@@ -8,16 +8,16 @@ This repository implements various classification strategies on the MNIST handwr
 - Multioutput Classification: Denoise noisy images pixel-by-pixel. 🧹
 The code is modular, commented, and ready for experimentation. Key highlights include cross-validation, precision-recall curves, ROC analysis, and error visualization.
 # Features
-📊 Data Loading & Preprocessing: Fetches MNIST via fetch_openml, splits into train/test (60k/10k), and scales features for better performance.
-🤖 Models Implemented:
-SGDClassifier (binary & multiclass)
-RandomForestClassifier (binary)
-SVC (multiclass with OvO/OvR)
-KNeighborsClassifier (multilabel & multioutput)
-ClassifierChain (multilabel chaining)
-📉 Evaluation Metrics: Accuracy, Precision, Recall, F1, Confusion Matrices, ROC AUC, Precision-Recall Curves.
-🖼️ Visualizations: Image displays, confusion matrix heatmaps, error grids (e.g., misclassifications between 8 and 0).
-🔍 Advanced Techniques: Threshold tuning for 90% precision, noise addition for multioutput denoising.
+- 📊 Data Loading & Preprocessing: Fetches MNIST via fetch_openml, splits into train/test (60k/10k), and scales features for better performance.
+- 🤖 Models Implemented:
+-  SGDClassifier (binary & multiclass)
+-  RandomForestClassifier (binary)
+-  SVC (multiclass with OvO/OvR)
+-  KNeighborsClassifier (multilabel & multioutput)
+-  ClassifierChain (multilabel chaining)
+- 📉 Evaluation Metrics: Accuracy, Precision, Recall, F1, Confusion Matrices, ROC AUC, Precision-Recall Curves.
+- 🖼️ Visualizations: Image displays, confusion matrix heatmaps, error grids (e.g., misclassifications between 8 and 0).
+- 🔍 Advanced Techniques: Threshold tuning for 90% precision, noise addition for multioutput denoising.
 
 # Usage
 Run the main script:
