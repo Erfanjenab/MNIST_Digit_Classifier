@@ -2,10 +2,10 @@
 
 # Overview
 This repository implements various classification strategies on the MNIST handwritten digit dataset (70,000 images of 28x28 pixels). We use Scikit-Learn models like SGDClassifier, RandomForestClassifier, SVC, KNeighborsClassifier, and more to tackle:
-Binary Classification: Is it a 5 or not? ⚖️..
-Multiclass Classification: Identify digits 0-9. 🔢..
-Multilabel Classification: Labels like "large" (≥7), "odd", and "prime". 🏷️..
-Multioutput Classification: Denoise noisy images pixel-by-pixel. 🧹..
+- . Binary Classification: Is it a 5 or not? ⚖️
+Multiclass Classification: Identify digits 0-9. 🔢
+Multilabel Classification: Labels like "large" (≥7), "odd", and "prime". 🏷️
+Multioutput Classification: Denoise noisy images pixel-by-pixel. 🧹
 The code is modular, commented, and ready for experimentation. Key highlights include cross-validation, precision-recall curves, ROC analysis, and error visualization.
 # Features
 📊 Data Loading & Preprocessing: Fetches MNIST via fetch_openml, splits into train/test (60k/10k), and scales features for better performance.
